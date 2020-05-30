@@ -1,8 +1,13 @@
-# import the model
+# import the GUI library
 import tkinter as tk
+# import our model functions
+import zhu as z
+
+dir(z)
+print(z.helloworld())
 
 # m is the main window object
-m = tk.Tk()
+# m = tk.Tk()
 # Code to add widgets will go here...
 
 mainWindowTitle = tk.Label(m, text="Our New GUI Hi")
